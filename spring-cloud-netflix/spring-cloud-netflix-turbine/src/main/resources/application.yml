@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-cloud-netflix-turbine
+server:
+  port: 8083
+turbine:
+  appConfig: spring-cloud-netflix-eureka-client, spring-cloud-netflix-ribbon
+  clusterNameExpression: new String("default")
+eureka:
+  instance:
+    preferIpAddress: true
+    metadataMap:
+      instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-cloud-netflix-hystrix
+server:
+  port: 8082
+eureka:
+  instance:
+    preferIpAddress: true
+    metadataMap:
+      instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-cloud-binder
+server:
+  port: 8016

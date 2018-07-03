@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-consul
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
+server:
+  port: 8501
