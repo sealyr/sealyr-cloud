@@ -25,20 +25,20 @@
 	</properties>
 
 	<modules>
-		<module>spring-cloud-binder</module>
-		<module>spring-cloud-bus</module>
-		<module>spring-cloud-config</module>
-		<module>spring-cloud-consul</module>
-		<module>spring-cloud-contract</module>
-		<module>spring-cloud-function</module>
-		<module>spring-cloud-gateway</module>
-		<module>spring-cloud-netflix</module>
-		<module>spring-cloud-openfeign</module>
-		<module>spring-cloud-security</module>
-		<module>spring-cloud-sleuth</module>
-		<module>spring-cloud-stream</module>
-		<module>spring-cloud-vault</module>
-		<module>spring-cloud-zookeeper</module>
+		<module>sealyr-cloud-binder</module>
+		<module>sealyr-cloud-bus</module>
+		<module>sealyr-cloud-config</module>
+		<module>sealyr-cloud-consul</module>
+		<module>sealyr-cloud-contract</module>
+		<module>sealyr-cloud-function</module>
+		<module>sealyr-cloud-gateway</module>
+		<module>sealyr-cloud-netflix</module>
+		<module>sealyr-cloud-openfeign</module>
+		<module>sealyr-cloud-security</module>
+		<module>sealyr-cloud-sleuth</module>
+		<module>sealyr-cloud-stream</module>
+		<module>sealyr-cloud-vault</module>
+		<module>sealyr-cloud-zookeeper</module>
 	</modules>
 
 	<dependencyManagement>
