@@ -1,1 +1,1 @@
-# spring-cloud-netflix-eureka-server
+# sealyr-cloud-netflix-eureka-server

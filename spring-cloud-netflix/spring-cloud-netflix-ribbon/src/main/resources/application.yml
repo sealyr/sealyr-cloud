@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-netflix-ribbon
+    name: sealyr-cloud-netflix-ribbon
 server:
   port: 8084
 eureka:

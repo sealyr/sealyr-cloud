@@ -1,1 +1,1 @@
-# spring-cloud-config
+# sealyr-cloud-config

@@ -1,1 +1,1 @@
-# spring-cloud-openfeign
+# sealyr-cloud-openfeign

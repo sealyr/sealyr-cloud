@@ -1,10 +1,10 @@
 spring:
   application:
-    name: spring-cloud-netflix-turbine
+    name: sealyr-cloud-netflix-turbine
 server:
   port: 8083
 turbine:
-  appConfig: spring-cloud-netflix-eureka-client, spring-cloud-netflix-ribbon
+  appConfig: sealyr-cloud-netflix-eureka-client, sealyr-cloud-netflix-ribbon
   clusterNameExpression: new String("default")
 eureka:
   instance:

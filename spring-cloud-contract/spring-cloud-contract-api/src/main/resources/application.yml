@@ -1,5 +1,5 @@
 spring:
   application:
-    name: spring-cloud-contract-api
+    name: sealyr-cloud-contract-api
 server:
   port: 8084

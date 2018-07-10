@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-netflix-hystrix
+    name: sealyr-cloud-netflix-hystrix
 server:
   port: 8082
 eureka:

@@ -1,1 +1,1 @@
-# spring-cloud-netflix-ribbon
+# sealyr-cloud-netflix-ribbon

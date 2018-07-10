@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-bus
+    name: sealyr-cloud-bus
   rabbitmq:
     host: localhost
     port: 5672
@@ -12,7 +12,7 @@ spring:
       label: master
       profile: dev
       discovery:
-        serviceId: spring-cloud-config-server
+        serviceId: sealyr-cloud-config-server
 server:
   port: 8900
 eureka:

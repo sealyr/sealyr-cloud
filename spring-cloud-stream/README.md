@@ -1,1 +1,1 @@
-# spring-cloud-stream
+# sealyr-cloud-stream

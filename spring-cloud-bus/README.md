@@ -1,1 +1,1 @@
-# spring-cloud-bus
+# sealyr-cloud-bus

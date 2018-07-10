@@ -1,5 +1,5 @@
 spring:
   application:
-    name: spring-cloud-gateway-client
+    name: sealyr-cloud-gateway-client
 server:
   port: 8088

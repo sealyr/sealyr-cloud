@@ -1,1 +1,1 @@
-# spring-cloud-netflix-hystrix
+# sealyr-cloud-netflix-hystrix

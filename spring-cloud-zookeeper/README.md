@@ -1,1 +1,1 @@
-# spring-cloud-zookeeper
+# sealyr-cloud-zookeeper

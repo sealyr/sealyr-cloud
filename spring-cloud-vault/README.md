@@ -1,1 +1,1 @@
-# spring-cloud-vault
+# sealyr-cloud-vault

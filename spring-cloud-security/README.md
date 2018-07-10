@@ -1,1 +1,1 @@
-# spring-cloud-security
+# sealyr-cloud-security

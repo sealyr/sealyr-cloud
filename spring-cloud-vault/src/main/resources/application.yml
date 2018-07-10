@@ -1,5 +1,5 @@
 spring:
   application:
-    name: spring-cloud-vault
+    name: sealyr-cloud-vault
 server:
   port: 8200

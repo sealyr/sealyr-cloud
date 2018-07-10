@@ -1,1 +1,1 @@
-# spring-cloud-netflix-turbine
+# sealyr-cloud-netflix-turbine

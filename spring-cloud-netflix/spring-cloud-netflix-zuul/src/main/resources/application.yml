@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-netflix-zuul
+    name: sealyr-cloud-netflix-zuul
 server:
   port: 8085
 eureka:
@@ -15,7 +15,7 @@ zuul:
   routes:
     api-a:
       path: /api/eureka/**
-      serviceId: spring-cloud-netflix-eureka-client
+      serviceId: sealyr-cloud-netflix-eureka-client
     api-b:
       path: /api/feign/**
-      serviceId: spring-cloud-openfeign
+      serviceId: sealyr-cloud-openfeign

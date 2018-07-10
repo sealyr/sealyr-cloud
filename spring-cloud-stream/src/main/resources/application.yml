@@ -1,5 +1,5 @@
 spring:
   application:
-    name: spring-cloud-stream
+    name: sealyr-cloud-stream
 server:
   port: 8015

@@ -1,1 +1,1 @@
-# spring-cloud-contract
+# sealyr-cloud-contract

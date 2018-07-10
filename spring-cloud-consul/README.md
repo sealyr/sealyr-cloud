@@ -1,1 +1,1 @@
-# spring-cloud-consul
+# sealyr-cloud-consul

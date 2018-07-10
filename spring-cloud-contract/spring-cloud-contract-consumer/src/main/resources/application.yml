@@ -1,5 +1,5 @@
 spring:
   application:
-    name: spring-cloud-contract-consumer
+    name: sealyr-cloud-contract-consumer
 server:
   port: 8085

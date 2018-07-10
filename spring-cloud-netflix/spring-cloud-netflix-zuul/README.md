@@ -1,1 +1,1 @@
-# spring-cloud-netflix-zuul
+# sealyr-cloud-netflix-zuul

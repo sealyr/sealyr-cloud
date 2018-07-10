@@ -1,1 +1,1 @@
-# spring-cloud-sleuth
+# sealyr-cloud-sleuth

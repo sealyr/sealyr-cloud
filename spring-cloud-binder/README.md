@@ -1,1 +1,1 @@
-# spring-cloud-binder
+# sealyr-cloud-binder

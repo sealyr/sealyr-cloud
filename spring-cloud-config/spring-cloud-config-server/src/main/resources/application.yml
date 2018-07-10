@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-config-server
+    name: sealyr-cloud-config-server
   cloud:
     config:
       server:

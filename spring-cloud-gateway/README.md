@@ -1,1 +1,1 @@
-# spring-cloud-gateway
+# sealyr-cloud-gateway
