@@ -11,7 +11,7 @@ public class HelloService {
   private RestTemplate restTemplate;
 
   public String hiService(String name) {
-    return restTemplate.getForObject("http://XBIRD-CLOUD-NETFLIX-EUREKA-CLIENT/?name=" + name,
+    return restTemplate.getForObject("http://SEALYR-CLOUD-NETFLIX-EUREKA-CLIENT/?name=" + name,
         String.class);
   }
 
