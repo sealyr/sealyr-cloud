@@ -6,8 +6,6 @@ server:
 eureka:
   instance:
     prefer-ip-address: true
-    metadataMap:
-      instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
   client:
     register-with-eureka: false
     fetch-registry: false
