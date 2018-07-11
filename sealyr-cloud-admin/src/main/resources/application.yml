@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: sealyr-cloud-admin
+server:
+  port: 28099

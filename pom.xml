@@ -26,6 +26,7 @@
 	</properties>
 
 	<modules>
+		<module>sealyr-cloud-admin</module>
 		<module>sealyr-cloud-binder</module>
 		<module>sealyr-cloud-bus</module>
 		<module>sealyr-cloud-config</module>
