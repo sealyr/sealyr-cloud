@@ -2,15 +2,7 @@ spring:
   application:
     name: sealyr-cloud-netflix-turbine
 server:
-  port: 8083
+  port: 28083
 turbine:
-  appConfig: sealyr-cloud-netflix-eureka-client, sealyr-cloud-netflix-ribbon
+  appConfig: sealyr-cloud-netflix-hystrix
   clusterNameExpression: new String("default")
-eureka:
-  instance:
-    preferIpAddress: true
-    metadataMap:
-      instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
