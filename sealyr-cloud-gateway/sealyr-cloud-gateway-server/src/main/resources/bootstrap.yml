@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+    metadataMap:
+      instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
+  client:
+    serviceUrl:
+      defaultZone: http://10.7.112.125:8761/eureka/,http://10.7.112.126:8761/eureka/,http://10.7.112.127:8761/eureka/
+    enabled: false
