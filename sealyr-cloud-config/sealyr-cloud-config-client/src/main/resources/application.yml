@@ -9,12 +9,4 @@ spring:
       discovery:
         serviceId: sealyr-cloud-config-server
 server:
-  port: 8889
-eureka:
-  instance:
-    preferIpAddress: true
-    metadataMap:
-      instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+  port: 28889
