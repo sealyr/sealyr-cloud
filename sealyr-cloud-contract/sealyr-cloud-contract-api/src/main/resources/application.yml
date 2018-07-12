@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: sealyr-cloud-contract-api
-server:
-  port: 8084
