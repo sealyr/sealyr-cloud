@@ -1,13 +1,13 @@
-package com.sealyr.framework.cloud.gateway.server;
+package com.sealyr.framework.cloud.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 
 @SpringCloudApplication
-public class GatewayServerApplication {
+public class GatewayApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(GatewayServerApplication.class, args);
+    SpringApplication.run(GatewayApplication.class, args);
   }
 
 }

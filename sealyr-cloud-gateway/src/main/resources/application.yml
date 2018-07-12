@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sealyr-cloud-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+server:
+  port: 8088

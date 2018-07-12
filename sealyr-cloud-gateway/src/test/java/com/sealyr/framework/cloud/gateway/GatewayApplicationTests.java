@@ -1,4 +1,4 @@
-package com.sealyr.framework.cloud.gateway.client;
+package com.sealyr.framework.cloud.gateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class GatewayClientApplicationTests {
+public class GatewayApplicationTests {
 
   @Test
   public void contextLoads() {}
